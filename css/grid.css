@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,span,p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.row {
+	margin: 0 -10px;
+}
+
+.row:after {
+	clear: both;
+  	content: " ";
+ 	display: block;
+}
+
+.col-12 {
+  	width: 100%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-11 {
+  	width: 91.666667%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-10 {
+  	width: 83.333333%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-9 {
+  	width: 75%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-8 {
+  	width: 66.666667%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-7 {
+  	width: 58.333333%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-6 {
+  	width: 50%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-5 {
+  	width: 41.666667%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-4 {
+  	width: 33.333333%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-3 {
+  	width: 25%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-2 {
+  	width: 16.666667%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.col-1 {
+  	width: 8.333333%;
+  	box-sizing: border-box;  
+  	float: left;
+  	padding: 0 10px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.text-align {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+  .browser-left {
+    display: none;
+  }
+
+  .browser-center {
+    position: relative;
+    right: -110px;
+  }
+
+  .browser-right {
+    display: none;
+  }
+
+  .project__images {
+  	width: 310px;
+  }
+
+  .project__images_black {
+  	width: 310px;
+  }
+
+  .phone {
+  	width: 310px;
+  }
+
+  .posts__container {
+  	width: 310px;
+  }
+
+  .posts__container_black {
+  	width: 310px;
+  }
+
+  .boots {
+  	width: 310px;
+  }
+
+  .dribbble-img1 {
+  	width: 100px;
+  }
+
+  .dribbble-img2 {
+  	width: 100px;
+  }
+
+  .dribbble-img3 {
+  	width: 100px;
+  }
+
+  .dribbble-img4 {
+  	width: 100px;
+  }
+}
+
